@@ -1,0 +1,115 @@
+*{
+
+}
+
+.fondo{
+    position: relative;
+width: 595px;
+height: 857px;
+
+background: #E3EFE9;
+}
+
+
+.info1{
+    position: absolute;
+    width: 300px;
+    height: 147px;
+    left: 220px;
+    top: 110px;
+}
+
+.foto{
+    position: absolute;
+    width: 178px;
+    height: 147px;
+    left: 42px;
+    top: 110px;
+}    
+
+.celular{
+    
+position: absolute;
+width: 226px;
+height: 64px;
+left: 36px;
+top: 46px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+
+.infopersonal{
+width: 495px;
+height: 158px;
+left: 25px;
+top: 103px;
+}
+
+.infogeneral{
+width: 552px;
+height: 445px;
+left: 25px;
+top: 296px;
+}
+
+.perfil{
+    position: absolute;
+width: 264px;
+height: 216px;
+left: 25px;
+top: 296px;
+}
+
+.logros{
+    position: absolute;
+width: 260px;
+height: 345px;
+left: 317px;
+top: 296px;
+}
+
+.infolog{
+    width: 208px;
+    height: 272px;
+    left: 38px;
+    top: 65px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #000000;
+}
+
+.exp{
+    position: absolute;
+width: 264px;
+height: 222px;
+left: 25px;
+top: 519px;
+}
+
+.piedepagina{
+    position: absolute;
+width: 595px;
+height: 118px;
+left: 0px;
+top: 741px;
+
+}
+
+
+
+
+
+
+
+
