@@ -1,0 +1,61 @@
+body{
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.Contenedor1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 30px;
+    margin: 15px;
+    background-color: white;
+    
+}
+
+.botones button{
+    color:gray;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.request{
+    background-color:hsl(136, 53%, 41%);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Contenedor2{
+    background-color:rgb(230, 230, 230) ;
+}
+
+.imagen1{
+    text-align: right;
+    height:300px;
+    width:300px;
+    z-index: -1;
+}
+
+.imagen2{
+    text-align: right;
+  height:200px;
+  width:200px;
+  top: 40px;
+  left : 40px;
+  z-index: 1;
+}
+
+.texto1{
+    text-align: left;
+}
+
+
