@@ -282,8 +282,8 @@ footer ul{
         padding: 40px;
         border-radius: 10px;
         text-align: center;
-        opacity: 0;
-        transition: all .5s ease-in-out; 
+        /* opacity: 0;
+        transition: all .5s ease-in-out;  */
     }
 
     header .navegacion li a{
