@@ -1,0 +1,109 @@
+:root{
+    --color-ficha: LightSalmon;
+    --color-encabezado:LightGoldenrodYellow;
+}
+
+body{
+    background-color: var(--color-ficha);
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr 0.8fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Encabezado Encabezado Encabezado Encabezado Encabezado Encabezado Encabezado"
+      "actividades actividades actividades actividades actividades actividades actividades"
+      "botones botones botones botones botones botones botones";
+  }
+  
+  .Encabezado {
+      background-color: var(--color-encabezado);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Titulo1 Titulo1 foto1"
+      "info info foto1"
+      "info info foto1";
+    grid-area: Encabezado;
+  }
+  
+  .enlaces { grid-area: info;
+  background-color:slategrey;
+  font-style: italic;
+width: 800px ;
+margin-bottom: 20px; 
+margin-top: 20px;
+padding-top: 10px;}
+
+
+  
+  .foto1 { grid-area: foto1;}
+  .imgfoto{
+      width: 50%;
+      border-radius: 20px;
+  }
+  
+  .Titulo1 { grid-area: Titulo1;
+font-size: 50px;
+font-style: italic;
+text-align: center;
+margin-top: 20px;} 
+  
+  .actividades {
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . ."
+      "Item nombreactividades calificacion progreso"
+      "Item nombreactividades calificacion progreso"
+      "Item nombreactividades calificacion progreso";
+    grid-area: actividades;
+    background-color: Tomato;
+  }
+  
+  .Item { grid-area: Item; }
+  
+  .nombreactividades { grid-area: nombreactividades; }
+  
+  .calificacion { grid-area: calificacion; }
+  
+  .progreso { grid-area: progreso; }
+  
+  .botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "estado1 estado2 estado3 estado4 estado5 estado6";
+    grid-area: botones;
+    background-color: DarkOrange;
+  }
+  
+  .estado1 { grid-area: estado1; }
+  
+  .estado2 { grid-area: estado2; }
+  
+  .estado3 { grid-area: estado3; }
+  
+  .estado4 { grid-area: estado4; }
+  
+  .estado5 { grid-area: estado5; }
+  
+  .estado6 { grid-area: estado6; }
+  
