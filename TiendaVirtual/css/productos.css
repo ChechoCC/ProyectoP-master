@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Akaya Telivigala", cursive;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.card .card-img-top {
+  height: 250px;
+}
+
+.card {
+  background-color: rgba(142, 231, 222, 0.308);
+}
+
+.card .btn-dark {
+  background-color: rgb(22, 160, 252);
+  color: black;
+}
+
+.card .btn-dark:hover {
+  transform: translateY(18px);
+  color: black;
+  background-color: rgba(112, 198, 255, 0.418);
+}
+
+.menu {
+  background-color: rgba(153, 191, 216, 0.596);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 999; /* para problemas con el menu y el slider*/
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Akaya Telivigala", cursive;
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 26 px;
+  background-color: rgb(99, 191, 252);
+  margin: 0 10px;
+  transition: 0.5s ease all;
+  color: var(--gray--light);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  transform: translateY(18px);
+  background-color: rgba(112, 198, 255, 0.418);
+}
+
+.redes-sociales {
+  padding: 10px;
+  background-color: rgba(153, 191, 216, 0.596);
+}
+.redes-sociales img {
+  padding: 5px;
+  border-radius: 100%;
+  width: 50px;
+  transition: 0.3s ease all;
+}
+
+.redes-sociales img:hover {
+  transform: scale(1.2);
+}
